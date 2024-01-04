@@ -43,7 +43,7 @@ class Oscilloscope:
     def acquire_data(self):
         # Start the subprocess running the Python script
         self.proc = subprocess.Popen(
-            ["python", f'{os.path.join(os.getcwd(), 'data_flow.py')}'],
+            ["python", f'{os.path.join(os.getcwd(), 'read_csv3.py')}'],
             stdout=subprocess.PIPE,
             stderr=subprocess.PIPE,
             shell=False,  # Set this to True if 'python' is not in your PATH variable
