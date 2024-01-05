@@ -16,4 +16,3 @@ def read(filename):
 # Replace 'data.csv' with the path to your CSV file
 file_to_read = 'data.csv'
 read(file_to_read)
-

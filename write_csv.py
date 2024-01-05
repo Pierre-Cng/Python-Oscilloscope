@@ -8,8 +8,8 @@ def generate_number():
         value = math.sin(number)
         timestamp = time.time()
         yield (timestamp, value)
-        number += 1  
-        time.sleep(0.1)  
+        number += 1
+        time.sleep(0.1)
 
 def save_to_csv(filename, data):
     with open(filename, 'w', newline='') as csvfile:
